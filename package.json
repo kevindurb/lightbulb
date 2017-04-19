@@ -6,15 +6,18 @@
   "author": "Kevin Durbin <kevindurb@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.4.0",
+    "classnames": "^2.2.5",
     "jss": "^7.0.3",
+    "prop-types": "^15.5.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-jss": "^6.1.1"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.21.0"
+    "@kadira/storybook": "^2.21.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "eslint-config-es2015": "^1.1.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
